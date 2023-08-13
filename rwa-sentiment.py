@@ -40,8 +40,8 @@ os.environ["OPENAI_API_KEY"] = "sk-GATFYqCxD1dV61IDRWCrT3BlbkFJHfd2mrybJTkZcDZAI
 #x=load_dotenv()
 #print(x)
 
-#llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0)
-llm = OpenAI(model_name="gpt-4", temperature=0)
+llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0)
+#llm = OpenAI(model_name="gpt-4", temperature=0)
 
 st.title ("Daffodil Sentiment Analysis Tool")
 #st.header ("RWA")
