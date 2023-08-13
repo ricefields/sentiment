@@ -35,7 +35,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-os.environ["OPENAI_API_KEY"] = "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"
+os.environ["OPENAI_API_KEY"] = "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"
 
 #x=load_dotenv()
 #print(x)
