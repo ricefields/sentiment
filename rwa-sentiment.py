@@ -43,7 +43,7 @@ os.environ["OPENAI_API_KEY"] = "sk-GATFYqCxD1dV61IDRWCrT3BlbkFJHfd2mrybJTkZcDZAI
 #llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0)
 llm = OpenAI(model_name="gpt-4", temperature=0)
 
-st.title ("Daffodil Maangement Sentiment Analysis Tool")
+st.title ("Daffodil Sentiment Analysis Tool")
 #st.header ("RWA")
 #st.subheader("Sentiment Analysis")
 #st.markdown ("I am markdown")
@@ -61,7 +61,7 @@ st.title ("Daffodil Maangement Sentiment Analysis Tool")
 #sample_text = "some text"
 #st.download_button ('download text', sample_text)
 
-message = st.text_input ('Intended Message', 'All is Well')
+message = st.text_input ('Enter the message you propose to send. I will detect the emotion it expresses', 'All is Well')
 
 template = """
 You are required to perform sentiment analysis on supplied text.
