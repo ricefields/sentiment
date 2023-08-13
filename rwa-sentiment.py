@@ -61,13 +61,13 @@ st.title ("Daffodil Sentiment Analysis Tool")
 #sample_text = "some text"
 #st.download_button ('download text', sample_text)
 
-message = st.text_input ('Enter the message you propose to send. I will detect the emotion it expresses', 'All is Well')
+message = st.text_input ('Enter the message you propose to send. I will detect the emotion it expresses:', 'All is Well')
 
 template = """
-You are required to perform sentiment analysis on supplied text.
-Please provide the estimated polarity scores of the following text {message}."
-"""
+You are required to perform sentiment analysis on supplied text {message}..
 
+"""
+#Please provide the estimated polarity scores of the following text {message}."
 prompt = PromptTemplate(template=template, input_variables=["message"])
 #st.write ("I am processing your input. Please wait until the 'Start Sentiment Analysis' button appears in steady red")
 llm_chain = LLMChain(prompt=prompt, llm=llm)
