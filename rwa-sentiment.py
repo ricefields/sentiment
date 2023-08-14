@@ -40,7 +40,7 @@ import numpy as np
 llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0)
 #llm = OpenAI(model_name="gpt-4", temperature=0)
 
-st.title ("Daffodil Sentiment Analysis Tool")
+st.title ("Daffodil Sentiment Analysis Assistant")
 #st.header ("RWA")
 #st.subheader("Sentiment Analysis")
 #st.markdown ("I am markdown")
