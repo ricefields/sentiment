@@ -35,7 +35,7 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 
-#os.environ["OPENAI_API_KEY"] = "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"
+#os.environ["OPENAI_API_KEY"] = "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"
 
 llm = OpenAI(model_name="gpt-3.5-turbo", temperature=0)
 #llm = OpenAI(model_name="gpt-4", temperature=0)

@@ -6,3 +6,8 @@ PyPDF2
 faiss-cpu
 unstructured
 tiktoken
+pandas
+wheel
+transformers
+
+
